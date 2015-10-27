@@ -1,0 +1,71 @@
+/* Color of burger icon */
+.bm-burger-icon {
+  background: #373a47;
+}
+
+/* Color of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* Background color of sidebar */
+.bm-menu {
+  background: #373a47;
+}
+
+.bm-morph-shape {
+  fill: #373a47; /* Morph shape necessary with bubble or elastic */
+}
+
+/* General menu styles */
+.bm-menu {
+}
+
+.bm-menu h2 {
+  padding: 0.5em 1em;
+  color: rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0 -1px rgba(0, 0, 0, 0.2);
+  max-width: 20em;
+  margin: 0 auto;
+  line-height: 1.3em;
+  font-weight: 400;
+  text-transform: uppercase;;
+}
+
+.bm-menu h2 i {
+  margin-left: 0.2em;
+}
+
+.bm-menu h2 span {
+  font-size: 1.6em;
+  font-weight: 700;
+}
+
+.bm-menu a {
+  padding: 1em;
+  text-transform: uppercase;
+  transition: background 0.3s, box-shadow 0.3s;
+  box-shadow: inset 0 -1px rgba(0, 0, 0, 0.2);
+  display: block;
+  color: #b8b7ad;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.bm-item-list a span {
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+
+.bm-menu a:hover, .bm-menu a:focus {
+  color: #c94e50;
+}
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+.bm-item-list a {
+  padding: 0.8em;
+}

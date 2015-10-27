@@ -1,0 +1,192 @@
+/* Base Application Styles */
+body {
+  color: #333;
+  background: ghostwhite;
+  font-family: 'Raleway', sans-serif;
+}
+.navbar-collapse {
+  overflow: hidden;
+}
+
+
+
+.main-content {
+  padding-top: 45px;
+  margin-bottom: 35px;
+  overflow: hidden;
+}
+
+header
+{
+    text-align: center;
+
+    background-image: url(../images/header-bg.jpg);
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: 0px center;
+
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+
+
+}
+
+header .intro-text
+{
+  color: ghostwhite;
+}
+
+header .intro-text .intro-lead-in
+{
+    font-family: 'Raleway','Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+
+    margin-bottom: 25px;
+}
+
+header .intro-text .intro-heading
+{
+    font-family: 'Raleway', Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+
+}
+
+header {
+  padding-bottom: 1em;
+}
+header .intro-text {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 0px;
+
+}
+
+
+section#contact {
+  padding: 0px;
+  background-image: none;
+  background-color: transparent;
+}
+
+section#contact input {
+  color: #333;
+
+}
+
+section#contact ::-webkit-input-placeholder {
+   color: #333;
+}
+
+section#contact :-moz-placeholder { /* Firefox 18- */
+   color: #333;
+}
+
+section#contact ::-moz-placeholder {  /* Firefox 19+ */
+   color: #333;
+}
+
+section#contact :-ms-input-placeholder {
+   color: #333;
+}
+.wtext {
+  white-space: nowrap;
+  display: inline-block;
+  line-height: 1em;
+  letter-spacing: -0.09em;
+  line-height: 0.75em;
+  letter-spacing: -0.09em;
+
+}
+
+
+.Image {
+  position: absolute;
+  height: 400px;
+  width: 400px;
+}
+
+.example-enter {
+  opacity: 0.01;
+  transition: opacity .5s ease-in;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+}
+
+.example-leave {
+  opacity: 1;
+  transition: opacity .5s ease-in;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0;
+}
+
+.link-active {
+  color: #bbbbbb;
+  text-decoration: none;
+}
+
+
+.row-bump {
+  margin-top: 45px;
+}
+
+.search-page {
+
+}
+
+
+
+.search-page input {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+
+.search-page tbody > tr > td {
+  padding: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.search-page tbody > tr > td:first-child {
+  font-weight: 700;
+  color: #333;
+}
+
+.search-page tbody > tr > td:last-child {
+  color: #999;
+}
+
+.track-detail-page {
+  margin-top: 5px;
+}
+
+.track-detail-page img {
+  -webkit-box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+}
+
+
+
+
+.no-right-padding {
+  padding-right: 0px;
+}
+
+.no-left-padding {
+  padding-left: 0px;
+}

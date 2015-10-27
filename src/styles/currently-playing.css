@@ -1,0 +1,47 @@
+.currently-playing {
+  padding:5px;
+  background-color: ghostwhite;
+  margin-top: 10px;
+}
+
+
+.currently-playing h1 {
+  color: #000;
+  padding-top: 0px;
+  margin-top: 0px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.currently-playing img {
+  border: 1px solid #333;
+}
+
+.currently-playing .track-title {
+  color: #333;
+  font-size: 1.25em;
+  line-height: 1em;
+  margin-bottom: 5px;
+}
+
+.currently-playing .track-artist {
+  font-size: 1.15em;
+  color: #848794;
+  line-height: 1em;
+  margin-bottom: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.currently-playing .track-album {
+  font-size: 1.1em;
+  color: #AAA;
+  line-height: 1em;
+
+}
+
+.currently-playing h4 {
+  color: ghostwhite;
+
+}

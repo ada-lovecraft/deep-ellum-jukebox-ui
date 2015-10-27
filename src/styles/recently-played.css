@@ -1,0 +1,57 @@
+.recently-played {
+  padding:5px;
+  background-color: ghostwhite;
+  margin-top: 10px;
+}
+
+
+.recently-played h1 {
+  color: #000;
+  padding-top: 0px;
+  margin-top: 0px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.recently-played img {
+  border: 1px solid #333;
+}
+
+.recently-played .track {
+  border-bottom: 1px dotted #888;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.recently-played .track:first-of-type {
+  border-top: 1px dotted #888;
+}
+.recently-played .track-title {
+  color: #333;
+  font-size: 1.25em;
+  line-height: 1em;
+  margin-bottom: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.recently-played .track-artist {
+  font-size: 1.15em;
+  color: #848794;
+  line-height: 1em;
+  margin-bottom: 5px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.recently-played .track-album {
+  font-size: 1.1em;
+  color: #AAA;
+  line-height: 1em;
+
+}
+
+.recently-played h4 {
+  color: ghostwhite;
+
+}
