@@ -1,8 +1,5 @@
-import SpotifyMock from '../mocks/spotify';
-import QueueMock from '../mocks/queue-data';
-import AnalysisMock from '../mocks/analysis-data';
 import Q from 'q';
-
+import io from 'socket.io-client';
 import debug from 'debug';
 
 let log = debug('API:log');
@@ -21,6 +18,7 @@ class APISource {
 
   searchTracks(query) {
     // returning a Promise because that is what fetch does.
+    /*
     if ( this.useMock ) {
       return Q.delay(250)
         .then(() => {
@@ -36,7 +34,7 @@ class APISource {
           return response;
         });
     }
-
+    */
     return fetch(`${this.searchURI}/tracks/${ encodeURIComponent(query)}`, {
       mode: 'cors'
     })
@@ -56,10 +54,12 @@ class APISource {
 
 
   fetchTrack(trackID) {
+    /*
     if ( this.useMock ) {
       return Q.delay(250)
         .then(() => _.find(this.searchResults, (t) => t.id === track.trackId));
     }
+    */
     let uri = `${this.tracksURI}${trackID}`
     console.log('[APISource] fetchTrack uri:', uri);
     return fetch(uri, {mode: 'cors'})
@@ -67,10 +67,12 @@ class APISource {
   }
 
   fetchQueue() {
+    /*
     if ( this.useMock ) {
       return Q.delay(250)
         .then(() => QueueMock);
     }
+    */
     return fetch(`${this.queueURI}`, {mode: 'cors'})
       .then(response => response.json());
   }
