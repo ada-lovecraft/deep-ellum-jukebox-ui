@@ -4,13 +4,13 @@ var path = require('path');
 var args = require('minimist')(process.argv.slice(2));
 
 // List of allowed environments
-var allowedEnvs = ['dev', 'dist', 'test'];
+var allowedEnvs = [ 'dev', 'dist', 'test' ];
 
 // Set the correct environment
 var env;
-if(args._.length > 0 && args._.indexOf('start') !== -1) {
+if ( args._.length > 0 && args._.indexOf('start') !== -1 ) {
   env = 'test';
-} else if (args.env) {
+} else if ( args.env ) {
   env = args.env;
 } else {
   env = 'dev';
@@ -41,7 +41,7 @@ function getValidEnv(env) {
  */
 function buildConfig(env) {
   var usedEnv = getValidEnv(env);
-  return configs[usedEnv];
+  return configs[ usedEnv ];
 }
 
 module.exports = buildConfig(env);
